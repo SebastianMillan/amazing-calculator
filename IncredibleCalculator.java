@@ -18,27 +18,27 @@ public class IncredibleCalculator {
             case 1: 
                 int n1 = leerEnteroEntrada();
                 int n2 = leerEnteroEntrada();
-                suma(n1, n2);
+                System.out.println("Resultado: "+suma(n1, n2));
                 break;
             case 2: 
                 int n1 = leerEnteroEntrada();
                 int n2 = leerEnteroEntrada();
-                resta(n1, n2);
+                System.out.println("Resultado: "+resta(n1, n2));
                 break;
             case 3: 
                 int n1 = leerEnteroEntrada();
                 int n2 = leerEnteroEntrada();
-                multiplicacion(n1, n2);
+                System.out.println("Resultado: "+multiplicacion(n1, n2));
                 break;
             case 4: 
                 int n1 = leerEnteroEntrada();
                 int n2 = leerEnteroEntrada();
-                divisionEntera(n1, n2);
+                System.out.println("Resultado: "+divisionEntera(n1, n2));
                 break;
             case 5: 
                 int n1 = leerEnteroEntrada();
                 int n2 = leerEnteroEntrada();
-                divisionConDecimales(n1,n2);
+                System.out.println("Resultado: "+divisionConDecimales(n1, n2));
                 break;
 
         }

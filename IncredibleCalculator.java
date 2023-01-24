@@ -30,7 +30,10 @@ public class IncredibleCalculator {
                 int n2 = leerEnteroEntrada();
                 multiplicacion(n1, n2);
                 break;
-            case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
+            case 4: 
+                int n1 = leerEnteroEntrada();
+                int n2 = leerEnteroEntrada();
+                divisionEntera(n1, n2);
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
                     break;
